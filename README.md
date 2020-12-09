@@ -8,9 +8,9 @@ Bikeshare project
 Bikeshare project was developed for Programming for Data Scince class at Udacity university. Python script reads data from .csv files for either Washington, New York city or Chicago. Using interactive interface a user can choose the city and define some other parametrs to extract statistical information from the data.
 
 ### Files used
-new_york_city.csv
-chicago.csv
-washington.csv
+- new_york_city.csv
+- chicago.csv
+- washington.csv
 
 ### Credits
 - Saving plots into a file: https://stackoverflow.com/questions/9622163/save-plot-to-image-file-instead-of-displaying-it-using-matplotlib
