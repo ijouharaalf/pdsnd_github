@@ -27,7 +27,7 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:    
-        month = input("Do you want details specific to a particular month? If yes, type month name from within first six months else type 'all'")
+        month = input("Do you want details specific to a particular month? If yes, type month name from within first six months else type 'all' ")
         month = month.lower()
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
@@ -36,7 +36,7 @@ def get_filters():
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("Do you want details specific to a particular day? If yes, type day name else type 'all'")
+        day = input("Do you want details specific to a particular day? If yes, type day name else type 'all' ")
         day = day.lower()
         if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             break
